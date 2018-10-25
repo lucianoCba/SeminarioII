@@ -4,4 +4,4 @@
 4)git flow init
 5)ng g component dashboard
 6)ng g service service/datos
-7)ng add @angular/material
+7)ng add @angular/material -> hammer gesto del celu, touch yes-yes
