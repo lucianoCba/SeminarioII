@@ -3,4 +3,5 @@
 3)sudo apt-get install git-flow
 4)git flow init
 5)ng g component dashboard
-6)ng g service dashboard
+6)ng g service service/datos
+7)ng add @angular/material
