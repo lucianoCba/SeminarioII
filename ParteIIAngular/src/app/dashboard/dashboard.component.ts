@@ -8,7 +8,22 @@ import {DataService} from '../service/data.service';
 })
 export class DashboardComponent implements OnInit {
 
-   users$: Object;
+  users$: Object;
+
+  public polarAreaChartLabels:string[] = ['Download Sales', 'In-Store Sales', 'Mail Sales', 'Telesales', 'Corporate Sales'];
+  public polarAreaChartData:number[] = [300, 500, 100, 40, 120];
+  public polarAreaLegend:boolean = true;
+ 
+  public polarAreaChartType:string = 'polarArea';
+ 
+  // events
+  public chartClicked(e:any):void {
+    console.log(e);
+  }
+ 
+  public chartHovered(e:any):void {
+    console.log(e);
+  }
 
   constructor(private data:DataService) { }
 
@@ -17,5 +32,6 @@ export class DashboardComponent implements OnInit {
       data => this.users$ = data
     )
   }
+
 
 }

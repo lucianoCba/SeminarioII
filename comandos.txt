@@ -1,7 +1,0 @@
-1)npm install -g @angular/cli
-2)ng new ParteIIAngular --style=scss --routing
-3)sudo apt-get install git-flow
-4)git flow init
-5)ng g component dashboard
-6)ng g service service/datos
-7)ng add @angular/material -> hammer gesto del celu, touch yes-yes

@@ -1,8 +1,9 @@
-<p>
-  dashboard works! dfsdf
-  <li *ngFor="let user of users$">
-    <ul>
-      <li>{{user.email}}</li>
-    </ul>
-  </li>
-</p>
+<div style="display: block">
+    <canvas baseChart
+            [data]="polarAreaChartData"
+            [labels]="polarAreaChartLabels"
+            [legend]="polarAreaLegend"
+            [chartType]="polarAreaChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+  </div>
