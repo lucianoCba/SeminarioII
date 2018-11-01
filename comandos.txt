@@ -1,7 +1,13 @@
 1)npm install -g @angular/cli
 2)ng new ParteIIAngular --style=scss --routing
-3)sudo apt-get install git-flow
-4)git flow init
-5)ng g component dashboard
-6)ng g service dashboard
+3)npm install --save @angular/material @angular/cdk @angular/animations
+4)sudo apt-get install git-flow
+5)git flow init
+6)ng g component dashboard
+7)ng g service dashboard
+//graficos
+-> https://valor-software.com/ng2-charts/
+npm install ng2-charts --save
+npm install chart.js --save
+
 cambio
