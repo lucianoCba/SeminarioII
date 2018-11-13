@@ -1,0 +1,16 @@
+
+
+  .center-div{
+    margin: auto;
+    width: 40%;
+    margin-top: 10%;
+  }
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
