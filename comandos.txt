@@ -5,6 +5,7 @@
 5)git flow init
 6)ng g component dashboard
 7)ng g service dashboard
+8)ng g class models/grupo
 //graficos
 -> https://valor-software.com/ng2-charts/
 npm install ng2-charts --save
